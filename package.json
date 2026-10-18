@@ -1,5 +1,5 @@
 {
-  "name": "@sagelabs/calculator-mcp-server",
+  "name": "@retiform/calculator-mcp-server",
   "version": "1.0.0",
   "description": "Scientific calculator MCP tool server - safe expression evaluation, symbolic calculus (derivative, simplify, solve, integral), statistics, and matrix operations, via the Model Context Protocol.",
   "type": "module",
@@ -67,6 +67,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sagelabs-dev/calculator-mcp-server.git"
+    "url": "git+https://github.com/retiform-labs/calculator-mcp-server.git"
   }
 }
