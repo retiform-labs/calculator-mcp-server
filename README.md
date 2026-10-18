@@ -1,6 +1,6 @@
-# @sagelabs/calculator-mcp-server
+# @retiform/calculator-mcp-server
 
-[![npm version](https://img.shields.io/npm/v/@sagelabs/calculator-mcp-server.svg)](https://www.npmjs.com/package/@sagelabs/calculator-mcp-server)
+[![npm version](https://img.shields.io/npm/v/@retiform/calculator-mcp-server.svg)](https://www.npmjs.com/package/@retiform/calculator-mcp-server)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A **scientific calculator MCP tool server** for AI agents — safe expression
@@ -57,7 +57,7 @@ tool from the tool itself.
 ## Install
 
 ```bash
-npm install @sagelabs/calculator-mcp-server
+npm install @retiform/calculator-mcp-server
 # or run directly:
 npx calculator-mcp-server
 ```
@@ -73,7 +73,7 @@ Requires Node.js ≥ 22.
   "mcpServers": {
     "calculator": {
       "command": "npx",
-      "args": ["-y", "@sagelabs/calculator-mcp-server"]
+      "args": ["-y", "@retiform/calculator-mcp-server"]
     }
   }
 }
@@ -90,7 +90,7 @@ CALC_MCP_TRANSPORT=sse  npx calculator-mcp-server   # SSE
 Library use:
 
 ```js
-import { createCalculatorMcpServer } from '@sagelabs/calculator-mcp-server'
+import { createCalculatorMcpServer } from '@retiform/calculator-mcp-server'
 
 const server = createCalculatorMcpServer({ transport: 'http', port: 3778, host: '127.0.0.1' })
 await server.start()
@@ -146,4 +146,4 @@ If calculator-mcp-server is useful to you, consider supporting its continued dev
 
 ---
 
-Crafted with ❤️ by [Sage Labs](https://sagelabs.dev)
+Crafted with ❤️ by [Retiform Labs](https://retiform.dev)
