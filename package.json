@@ -63,7 +63,7 @@
     "prettier": "^3.0.0",
     "vitest": "4.1.11"
   },
-  "author": "Guan (guan-tends)",
+  "author": "Guan <guan@retiform.dev>",
   "license": "MIT",
   "repository": {
     "type": "git",
