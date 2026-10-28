@@ -1,6 +1,6 @@
 {
   "name": "@retiform/calculator-mcp-server",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Scientific calculator MCP tool server - safe expression evaluation, symbolic calculus (derivative, simplify, solve, integral), statistics, and matrix operations, via the Model Context Protocol.",
   "type": "module",
   "main": "src/mcp-server.js",
@@ -51,7 +51,7 @@
     "CHANGELOG.md"
   ],
   "dependencies": {
-    "@sagelabs/mcp-ai": "^1.6.9-guan.0",
+    "@retiform/mcp-ai": "^1.9.1",
     "json5": "^2.2.3",
     "mathjs": "^15.2.0",
     "zod": "^3.24.0"

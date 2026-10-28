@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.3] - 2026-10-28
+
+### Changed
+
+- Migrate from the deprecated `@sagelabs/mcp-ai` to `@retiform/mcp-ai@^1.9.1`.
+  The `simple-server` API is unchanged, so only the scope moves. Installers no
+  longer receive a deprecation warning.
+
+### Fixed
+
+- `FUNDING.yml` pointed at `github.com/sagelabs-dev/...`, which 404s after the
+  org rename. Now targets `retiform-labs`.
+
 ## [1.0.0] - 2026-09-13
 
 ### Added
