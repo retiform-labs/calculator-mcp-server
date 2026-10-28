@@ -6,8 +6,9 @@
  *   2. JSON5 config file (default: ./config.json5, path via CALC_MCP_CONFIG)
  *   3. Environment variables (CALC_MCP_PORT, CALC_MCP_HOST, CALC_MCP_TRANSPORT)
  *
- * The `host` field is honored by @sagelabs/mcp-ai 1.6.7-guan.0 —
- * SimpleServer's express listen() binds only the configured interface.
+ * The `host` field is honored by @retiform/mcp-ai (introduced in the
+ * 1.6.7-guan.0 line; current dependency ^1.9.1). SimpleServer's express
+ * listen() binds only the configured interface.
  * Loopback-only deployment layers (systemd IPAddressDeny/Allow + UFW
  * default-deny) remain as defense-in-depth.
  *
