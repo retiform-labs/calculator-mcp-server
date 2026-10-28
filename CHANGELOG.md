@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.4] - 2026-10-28
+
+### Fixed
+
+- README and the `bin/` header comment documented `npx calculator-mcp-server`
+  (**unscoped**), which resolves on npm to an unrelated package by a different
+  author. All five occurrences now read `npx -y @retiform/calculator-mcp-server`.
+  The repo fix alone would not have reached users: npm serves its own frozen
+  copy of the README, so a patch release is the only way to replace the 1.0.3
+  registry page.
+
 ## [1.0.3] - 2026-10-28
 
 ### Changed

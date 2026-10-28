@@ -59,7 +59,7 @@ tool from the tool itself.
 ```bash
 npm install @retiform/calculator-mcp-server
 # or run directly:
-npx calculator-mcp-server
+npx -y @retiform/calculator-mcp-server
 ```
 
 Requires Node.js ≥ 22.
@@ -82,9 +82,9 @@ Requires Node.js ≥ 22.
 ### HTTP / SSE
 
 ```bash
-npx calculator-mcp-server          # stdio (bin default)
-CALC_MCP_TRANSPORT=http npx calculator-mcp-server   # HTTP on 127.0.0.1:3778
-CALC_MCP_TRANSPORT=sse  npx calculator-mcp-server   # SSE
+npx -y @retiform/calculator-mcp-server          # stdio (bin default)
+CALC_MCP_TRANSPORT=http npx -y @retiform/calculator-mcp-server   # HTTP on 127.0.0.1:3778
+CALC_MCP_TRANSPORT=sse  npx -y @retiform/calculator-mcp-server   # SSE
 ```
 
 Library use:

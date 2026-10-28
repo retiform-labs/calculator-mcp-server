@@ -2,7 +2,7 @@
 /**
  * calculator-mcp-server — stdio entry point (npm bin).
  *
- * The `npx calculator-mcp-server` / gateway-spawn path. Runs the server
+ * The `npx -y @retiform/calculator-mcp-server` / gateway-spawn path. Runs the server
  * over stdio (stdin/stdout = MCP protocol wire) with the entry default
  * transport 'stdio' — an explicit config file or env var still wins.
  *
